@@ -13,12 +13,11 @@
         $married = "married";
         $widowed = "widowed";
         
-        //echo " ".$name_titie."<br>";
         if ($gender == $male)
         {
             if ($age <= 14)
             {
-                $name_title = "ด.ช";
+                $name_title = "เด็กชาย";
             }
             else
             {
@@ -29,7 +28,7 @@
         {
             if ($age <= 14)
             {
-                $name_title = "ด.ญ";
+                $name_title = "เด็กหญิง";
             }
             else if ($marrital_status==$married||$marrital_status==$widowed)
             {
@@ -40,7 +39,7 @@
                 $name_title = "นางสาว";
             }
         }
-        echo $name_title. "   ".$name."    ".$age."    ".$gender."    ".$marrital_status;
+        echo $name_title."   ".$name."    ".$age."    ".$gender."    ".$marrital_status;
     ?>
 </body>
 
