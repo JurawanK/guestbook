@@ -7,7 +7,7 @@
         $age = $_GET["age"];
         $gender = $_GET["gender"];
         $status = $_GET["status"];
-        $name_title = "";
+        $nametitle = "";
         $male = "ชาย";
         $female = "หญิง";
         $married = "สมรส";
@@ -16,11 +16,11 @@
         {
             if ($age <= 14)
             {
-                $name_title = "เด็กชาย";
+                $nametitle = "เด็กชาย";
             }
             else
             {
-                $name_title = "นาย";
+                $nametitle = "นาย";
             }
         }
         else if ($gender == $female)
@@ -31,14 +31,14 @@
             }
             else if ($status==$married)
             {
-                $name_title = "นาง";
+                $nametitle = "นาง";
             }
             else
             {
-                $name_title = "นางสาว";
+                $nametitle = "นางสาว";
             }
         }
-        echo "ชื่อ :".$name_title."   ".$name."    "."อายุ :".$age."    "."เพศ :".$gender."    "."สถานะ :".$status;
+        echo "ชื่อ :".$nametitle."   ".$name."    "."อายุ :".$age."    "."เพศ :".$gender."    "."สถานะ :".$status;
     ?>
 </body>
 
