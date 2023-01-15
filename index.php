@@ -7,7 +7,7 @@
         What is your name: <input type = "text" name = "name"> <br>
         What is your age: <input type = "text" name = "age"> <br>
         What is your gender: <br>
-        <input type = "radio" name = "gender" value = "male"> ชาย <br>
+        <input type = "radio" name = "gender" value = "ชาย"> ชาย <br>
         <input type = "radio" name = "gender" value = "female"> หญิง <br>
         What is your marrital status: <br>
         <input type = "radio" name = "status" value = "single"> โสด <br>
