@@ -11,7 +11,6 @@
         $male = "male";
         $female = "female";
         $married = "married";
-        $widowed = "widowed";
         
         if ($gender == $male)
         {
@@ -30,7 +29,7 @@
             {
                 $name_title = "เด็กหญิง";
             }
-            else if ($status==$married||$status==$widowed)
+            else if ($status==$married)
             {
                 $name_title = "นาง";
             }
@@ -39,7 +38,7 @@
                 $name_title = "นางสาว";
             }
         }
-        echo $name_title."   ".$name."    "."อายุ".$age."    "."เพศ".$gender."    "."สถานะ".$status;
+        echo "ชื่อ :".$name_title."   ".$name."    "."อายุ :".$age."    "."เพศ :".$gender."    "."สถานะ :".$status;
     ?>
 </body>
 
