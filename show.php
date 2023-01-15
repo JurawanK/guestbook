@@ -39,7 +39,7 @@
                 $name_title = "นางสาว";
             }
         }
-        echo $name_title."   ".$name."    ".$age."    ".$gender."    ".$status;
+        echo $name_title."   ".$name."    "."อายุ".$age."    "."เพศ".$gender."    "."สถานะ".$status;
     ?>
 </body>
 
