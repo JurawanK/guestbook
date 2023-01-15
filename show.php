@@ -6,7 +6,7 @@
         $name = $_GET["name"];
         $age = $_GET["age"];
         $gender = $_GET["gender"];
-        $marrital_status = $_GET["marrital_status"];
+        $status = $_GET["status"];
         $name_title = "";
         $male = "male";
         $female = "female";
@@ -30,7 +30,7 @@
             {
                 $name_title = "เด็กหญิง";
             }
-            else if ($marrital_status==$married||$marrital_status==$widowed)
+            else if ($status==$married||$status==$widowed)
             {
                 $name_title = "นาง";
             }
@@ -39,7 +39,7 @@
                 $name_title = "นางสาว";
             }
         }
-        echo $name_title."   ".$name."    ".$age."    ".$gender."    ".$marrital_status;
+        echo $name_title."   ".$name."    ".$age."    ".$gender."    ".$status;
     ?>
 </body>
 
