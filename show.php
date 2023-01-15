@@ -8,9 +8,9 @@
         $gender = $_GET["gender"];
         $status = $_GET["status"];
         $name_title = "";
-        $male = "male";
-        $female = "female";
-        $married = "married";
+        $male = "ชาย";
+        $female = "หญิง";
+        $married = "สมรส";
         
         if ($gender == $male)
         {
