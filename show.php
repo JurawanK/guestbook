@@ -38,7 +38,7 @@
                 $nametitle = "นางสาว";
             }
         }
-        echo "ชื่อ :".$nametitle."    ".$name <br>."อายุ :".$age<br>."เพศ :".$gender<br>."สถานะ :".$status;
+        echo "ชื่อ :".$nametitle."    ".$name .<br>."อายุ :".$age.<br>."เพศ :".$gender.<br>."สถานะ :".$status;
     ?>
 </body>
 
